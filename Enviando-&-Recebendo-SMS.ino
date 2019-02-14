@@ -16,7 +16,7 @@ void setup()
   }
 
   delay(5000);//Espera o termino da inicializacao do GSM
-  SMSsnd("014998202683", "Arduino ON, lendo mensagens...");//Envia a mensagem pro numero. Atencao: precisa do DDD!
+  SMSsnd("062991973345", "Arduino ON, analizando...");//Envia a mensagem pro numero. Atencao: precisa do DDD!
  
 }
 
