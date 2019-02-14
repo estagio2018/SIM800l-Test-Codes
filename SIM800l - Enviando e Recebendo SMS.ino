@@ -29,7 +29,6 @@ void loop()
   delay(10000);
 }
 
-
 String gsmWrite(String snd, String rcv)//Funcao que envia dados pro GSM e espera a resposta de ate 30seg
 {
   Serial2.println(snd);
@@ -47,7 +46,6 @@ String gsmWrite(String snd, String rcv)//Funcao que envia dados pro GSM e espera
     {
       delay(50);
       String a = Serial2.readString();
-
 
       if (a.indexOf(rcv) > -1 || rcv.length() == 0)
       {
