@@ -1,4 +1,4 @@
-/*Code Test - Enviando e recebendo SMS com módulo SIM800L.
+/*Code Test - Obtendo Horário Através da rede.
   Ficha técnica:
     * O módulo possui picos de transmissão, o que pode utilizar muita corrente do próprio arduino, recomenda-se
       utilizar uma fonte externa de 3,4V ~ 4,3V com pelo menos 2A.
